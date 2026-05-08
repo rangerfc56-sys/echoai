@@ -1,0 +1,27 @@
+# Conda env for clinic_workflow (Gradio + Whisper ASR + OpenAI).
+# Create:   conda env create -f environment.yml
+# Activate: conda activate script2video-whisper
+# Run:      cd /home/surya/anuj/script2video/whisper && python clinic_workflow.py --mode gradio
+#
+# GPU: after create, reinstall PyTorch for your CUDA version from https://pytorch.org/get-started/locally/
+name: script2video-whisper
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ffmpeg
+  - librosa>=0.10
+  - numpy
+  - scipy
+  - pip:
+      - torch
+      - transformers>=4.40
+      - accelerate>=0.30
+      - safetensors
+      - openai>=1.30
+      - gradio>=4.0
+      - python-dotenv
+      - fastapi>=0.115.0
+      - uvicorn[standard]>=0.30.0
+      - python-multipart>=0.0.9

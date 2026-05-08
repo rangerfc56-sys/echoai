@@ -1,0 +1,15 @@
+# Docker / RunPod GPU image: base image provides torch+cuda; do not pip install torch here.
+transformers>=4.40
+accelerate>=0.30
+safetensors
+openai>=1.30
+python-dotenv
+gradio>=4.0
+librosa>=0.10
+numpy
+scipy
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+anthropic>=0.39.0
+pymupdf>=1.24.0

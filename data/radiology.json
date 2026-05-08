@@ -1,0 +1,7 @@
+{
+  "key": "radiology",
+  "display_name": "Radiology",
+  "style_descriptor": "structured radiology clinical summaries emphasizing modality, technique, comparative imaging when stated, key findings, impression, and follow-up recommendations when clinically indicated",
+  "department_default": "Department of Radiology",
+  "system_addon": "Prioritize imaging modality (CT/MRI/US/X-ray), anatomy, contrast use, technical limitations, and correlation with clinical indications when mentioned. Keep final_diagnosis/impression aligned with imaging-supported conclusions from the transcript only."
+}

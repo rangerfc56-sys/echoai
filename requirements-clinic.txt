@@ -1,0 +1,7 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+# Optional: only needed when HINGLISH_TO_ENGLISH_BACKEND=anthropic
+anthropic>=0.39.0
+# Textbook RAG (TEXTBOOK_RAG_ENABLED=1): chunk + embed Boloor PDF
+pymupdf>=1.24.0

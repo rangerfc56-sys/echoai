@@ -1,0 +1,21 @@
+.env
+.env.local
+*.pem
+.tmp/
+outputs/
+.gradio/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+*.log
+.idea/
+.vscode/
+*.swp
+*.pdf
+# Optional clone; nested .git would register as a submodule — install per README
+biobert/

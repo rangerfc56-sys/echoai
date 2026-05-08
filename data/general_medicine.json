@@ -1,0 +1,7 @@
+{
+  "key": "general_medicine",
+  "display_name": "General Medicine",
+  "style_descriptor": "hospital General Medicine discharge summaries (full narrative HPI, numbered diagnoses/complaints/advice, examination subsections)",
+  "department_default": "Department of General Medicine",
+  "system_addon": "Follow standard inpatient discharge-summary layout. Expand HPI and hospital course as cohesive narratives grounded only in the transcript."
+}
